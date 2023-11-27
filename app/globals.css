@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-made
+{
+    background-color: rgba(25,25,25,255);
+    height: 70vh;
+}
+.bg-size
+{
+    height: 80vh;
+}
