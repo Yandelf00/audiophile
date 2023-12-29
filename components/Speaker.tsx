@@ -2,6 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 export default function Speaker() {
   return (
     <div className='w-full flex justify-center'>
@@ -25,7 +26,9 @@ export default function Speaker() {
                     to deliver truly remarkable sound
                 </p>
                 <div className='flex w-full justify-start items-start mt-[5rem]'>
-                    <button className='bg-black text-white text-bold text-[2rem] h-[7rem] w-[22rem]'>SEE PRODUCT</button>
+                    <Link href={'speakers/zx9-speaker'}>
+                        <button className='bg-black text-white text-bold text-[2rem] h-[7rem] w-[22rem]'>SEE PRODUCT</button>
+                    </Link>
                 </div>
             </div>
         </motion.div>

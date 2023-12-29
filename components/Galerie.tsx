@@ -29,33 +29,33 @@ export default function Galerie(props : GalerieProps) {
                     <Image src={props.gallery[0]?.image.desktop} alt='tkt' width={600} height={600}/>
                 </div>
                 <h1 className='text-[3rem] font-semibold mt-6'>{props.gallery[0]?.name}</h1>
-                <button className='w-[40%] mt-6 h-[5rem] bg-[rgba(216,125,74,255)] hover:bg-[rgb(253,176,132)] text-white text-[1.5rem] font-bold'>
-                <Link href={`/${props.gallery[0]?.slug}`}>
+                <Link className='w-full flex justify-center items-center' href={`/${props.gallery[0]?.slug}`}>
+                    <button className='w-[40%] mt-6 h-[5rem] bg-[rgba(216,125,74,255)] hover:bg-[rgb(253,176,132)] text-white text-[1.5rem] font-bold'>
                         SEE PRODUCT
+                    </button>
                 </Link>
-                </button>
             </div>
             <div className='flex flex-col items-center h-full w-full'>
                 <div className='bg-[rgba(241,241,241,255)] flex h-[80%] w-[70%] rounded-2xl justify-center items-center'>
                     <Image src={props.gallery[1]?.image.desktop} alt='tkt' width={600} height={600}/>
                 </div>
                 <h1 className='text-[3rem] font-semibold mt-6'>{props.gallery[1]?.name}</h1>
-                <button className='w-[40%] mt-6 h-[5rem] bg-[rgba(216,125,74,255)] hover:bg-[rgb(253,176,132)] text-white text-[1.5rem] font-bold'>
-                <Link href={`/${props.gallery[1]?.slug}`}>
-                        SEE PRODUCT
-                    </Link>
-                </button>
+                <Link className='w-full flex justify-center items-center' href={`/${props.gallery[1]?.slug}`}>
+                    <button className='w-[40%] mt-6 h-[5rem] bg-[rgba(216,125,74,255)] hover:bg-[rgb(253,176,132)] text-white text-[1.5rem] font-bold'>
+                            SEE PRODUCT
+                    </button>
+                </Link>
             </div>
             <div className='flex flex-col items-center h-full w-full'>
                 <div className='bg-[rgba(241,241,241,255)] flex h-[80%] w-[70%] rounded-2xl justify-center items-center'>
                     <Image src={props.gallery[2]?.image.desktop} alt='tkt' width={600} height={600}/>
                     </div>
                     <h1 className='text-[3rem] font-semibold mt-6'>{props.gallery[2]?.name}</h1>
-                    <button className='w-[40%] mt-6 h-[5rem] bg-[rgba(216,125,74,255)] hover:bg-[rgb(253,176,132)] text-white text-[1.5rem] font-bold'>
-                    <Link href={`/${props.gallery[2]?.slug}`}>
-                        SEE PRODUCT
+                    <Link className='w-full flex justify-center items-center' href={`/${props.gallery[2]?.slug}`}>
+                        <button className='w-[40%] mt-6 h-[5rem] bg-[rgba(216,125,74,255)] hover:bg-[rgb(253,176,132)] text-white text-[1.5rem] font-bold'>
+                            SEE PRODUCT
+                        </button>
                     </Link>
-                    </button>
             </div>
         </div>
     </div>

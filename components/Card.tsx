@@ -19,11 +19,11 @@ export default function Card(props:CardProps) {
                     <div className='w-[80%] h-full flex flex-col justify-center items-start'>
                         <h1 className='text-[5rem] font-semibold'>{daata?.name}</h1>
                         <p className='text-slate-400 text-[2rem] mt-[5rem]'>{daata?.description}</p>
-                        <button className='border-none bg-[rgba(216,125,74,255)] h-[5rem] w-[20rem] text-white mt-[5rem] text-[2rem]'>
-                            <Link href={`/${daata?.category}/${daata?.slug}`}>
-                                SEE PRODUCT
-                            </Link>
-                        </button>
+                        <Link href={`/${daata?.category}/${daata?.slug}`}>
+                            <button className='border-none bg-[rgba(216,125,74,255)] h-[5rem] w-[20rem] text-white mt-[5rem] text-[2rem]'>   
+                                    SEE PRODUCT
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -36,11 +36,11 @@ export default function Card(props:CardProps) {
                     <div className='w-[100%] h-full flex flex-col justify-center items-start'>
                         <h1 className='text-[5rem] font-semibold'>{daata?.name}</h1>
                         <p className='text-slate-400 text-[2rem] mt-[5rem]'>{daata?.description}</p>
-                        <button className='border-none bg-[rgba(216,125,74,255)] h-[5rem] w-[20rem] text-white mt-[5rem] text-[2rem]'>
                         <Link href={`/${daata?.category}/${daata?.slug}`}>
-                                SEE PRODUCT
+                            <button className='border-none bg-[rgba(216,125,74,255)] h-[5rem] w-[20rem] text-white mt-[5rem] text-[2rem]'>
+                                    SEE PRODUCT
+                            </button>
                         </Link>
-                        </button>
                     </div>
                 </div>
                 <div className='w-[49%] h-full bg-[rgba(241,241,241,255)] flex justify-center items-center rounded-2xl'>

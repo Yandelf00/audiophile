@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function Earphones() {
   return (
@@ -6,9 +7,11 @@ export default function Earphones() {
         <div className='w-[49%] h-full rounded-2xl bg-[url("/images/home/desktop/image-earphones-yx1.jpg")]
         bg-no-repeat bg-cover'></div>
         <div className='w-[49%] h-full rounded-2xl bg-[rgba(241,241,241,255)] flex flex-col justify-center items-start pl-[10rem]'>
-                <h1 className='text-black font-semibold text-[4rem] mb-[2rem]'>ZX7 SPEAKER</h1>
-                <button className='border border-black border-solid w-[18rem] h-[5rem] text-black text-[1.5rem]
-                mt-[2rem]'>SEE PRODUCT</button>
+                <h1 className='text-black font-semibold text-[4rem] mb-[2rem]'>YX1 Wireless Earphones</h1>
+                <Link href={'earphones/yx1-earphones'}>
+                  <button className='border border-black border-solid w-[18rem] h-[5rem] text-black text-[1.5rem]
+                  mt-[2rem]'>SEE PRODUCT</button>
+                </Link>
         </div>
     </div>
   )

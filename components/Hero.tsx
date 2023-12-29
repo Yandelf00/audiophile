@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 export default function Hero() {
   return (
     <div className='flex flex-row justify-start items-center bg-size'>
@@ -10,7 +11,9 @@ export default function Hero() {
                 and exceptional build quality made for
                 the passionate music enthusiast.
             </p>
-            <button className='mt-[10rem] text-slate-50 text-[2rem] bg-[rgba(216,125,74,255)] h-[6rem] w-[20rem] '>See product</button>
+            <Link href={'/headphones/xx99-mark-two-headphones'}>
+              <button className='mt-[10rem] text-slate-50 text-[2rem] bg-[rgba(216,125,74,255)] h-[6rem] w-[20rem] '>See product</button>
+            </Link>
         </div>
     </div>
   )
