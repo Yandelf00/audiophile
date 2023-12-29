@@ -8,9 +8,9 @@ export default function Footer() {
             <div className='flex flex-col justify-center items-start w-[40%]'>
                 <h1 className='text-white font-bold text-[3rem] mb-[5rem] mt-3'>audiophile</h1>
                 <p className='text-gray-400 text-[1.5rem] mb-[9rem]'>
-                    audiophile is an all one stop to fulfill your audio needs. We're a small 
+                    audiophile is an all one stop to fulfill your audio needs. We are a small 
                     team of music lovers and sound specialists who are devoted to helping you get 
-                    the most out of personal audio. Come and visit our demo facility-we're open
+                    the most out of personal audio. Come and visit our demo facility-we are open
                     7 days a week.
                 </p>
                 <p className='text-gray-400 text-[1.5rem]'>Copyright 2021. All Rights Reserved</p>
