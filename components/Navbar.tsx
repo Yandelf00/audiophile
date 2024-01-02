@@ -31,22 +31,22 @@ export default function Navbar() {
     if (change === false){
       return (
         <div className='flex flex-row justify-between items-center w-full mt-11 '>
-            <div className='flex justify-center w-1/3'><h1 className='font-bold text-5xl text-slate-50 cursor-pointer'>audiophile</h1></div>
+            <div className='flex justify-center w-1/3'><h1 className='font-bold sm:text-sm text-5xl text-slate-50 cursor-pointer'>audiophile</h1></div>
             <div className='flex flex-row justify-between w-1/3 mt-4 '>
-                <h2 className='text-2xl text-slate-50 cursor-pointer transition duration-300 ease-in-out hover:text-[rgba(216,125,74,255)]'>
+                <h2 className='sm:text-sm text-2xl text-slate-50 cursor-pointer transition duration-300 ease-in-out hover:text-[rgba(216,125,74,255)]'>
                   <Link href="/">
                     HOME
                   </Link> 
                 </h2>
-                <h2 className='text-2xl text-slate-50 cursor-pointer transition duration-300 ease-in-out hover:text-[rgba(216,125,74,255)]'>
+                <h2 className='sm:text-sm text-2xl text-slate-50 cursor-pointer transition duration-300 ease-in-out hover:text-[rgba(216,125,74,255)]'>
                 <Link href="/headphones">
                   HEADPHONES
                 </Link>
                 </h2>
-                <h2 className='text-2xl text-slate-50 cursor-pointer transition duration-300 ease-in-out hover:text-[rgba(216,125,74,255)]'>
+                <h2 className='sm:text-sm text-2xl text-slate-50 cursor-pointer transition duration-300 ease-in-out hover:text-[rgba(216,125,74,255)]'>
                   <Link href="/speakers">SPEAKERS</Link>
                 </h2>
-                <h2 className='text-2xl text-slate-50 cursor-pointer transition duration-300 ease-in-out hover:text-[rgba(216,125,74,255)]'>
+                <h2 className='sm:text-sm text-2xl text-slate-50 cursor-pointer transition duration-300 ease-in-out hover:text-[rgba(216,125,74,255)]'>
                   <Link href="/earphones">EARPHONES</Link>
                   </h2>
             </div>

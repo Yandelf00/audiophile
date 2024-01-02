@@ -20,14 +20,14 @@ export default function Speaker() {
             </div>
             <div className='flex flex-col h-full w-[50%] justify-center items-center'>
                 <div className='flex w-full justify-start items-start'>
-                    <h1 className='text-white text-[10rem] font-bold'>ZX9 SPEAKER</h1>
+                    <h1 className='text-white sm:text-[3rem] text-[10rem] font-bold'>ZX9 SPEAKER</h1>
                 </div>
-                <p className='text-[rgba(236,192,168,255)] text-[4rem] mt-[3rem]'>Upgrade to premium speakers that are phenomenally built
+                <p className='text-[rgba(236,192,168,255)] text-[2rem] mt-[3rem]'>Upgrade to premium speakers that are phenomenally built
                     to deliver truly remarkable sound
                 </p>
                 <div className='flex w-full justify-start items-start mt-[5rem]'>
                     <Link href={'speakers/zx9-speaker'}>
-                        <button className='bg-black text-white text-bold text-[2rem] h-[7rem] w-[22rem]'>SEE PRODUCT</button>
+                        <button className='bg-black text-white text-bold text-[2rem] h-[7rem] sm:w-[10rem] w-[22rem]'>SEE PRODUCT</button>
                     </Link>
                 </div>
             </div>

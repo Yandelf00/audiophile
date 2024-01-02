@@ -6,7 +6,7 @@ import { CartProvider } from '@/context/cartContext'
 export default function Home() {
   return (
     <CartProvider>
-      <main className="flex justify-center flex-col">
+      <main className="flex justify-center flex-col w-full">
         <div className="w-full bg-size bg-[url('/images/home/desktop/image-hero.jpg')] bg-cover bg-center bg-no-repeat">
           <Navbar/>
           <Hero/>
